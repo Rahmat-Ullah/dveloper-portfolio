@@ -9,7 +9,7 @@ body{
     color: #FD6E0A;
 }
 .btn-primary{
-    width: 150px;
+    width: auto;
     height: 45px;
     font-size: 18px;
     border-radius: 5px;
@@ -17,18 +17,21 @@ body{
     color: white;
     padding: 15px 35px;
     border: none;
+    cursor: pointer;
 }
-/* Navbar styles */
+/* header styles */
 header{
     width: 100%;
     height: auto;
     background-color: #FFF8F3;
 }
+
+/* Navbar styles */
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* margin: 0px 200px; */
+    margin: 0px 200px;
 }
 nav > ul{
     display: flex;
@@ -42,4 +45,22 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+}
+
+/* banner styles */
+
+.banner{
+    display: flex;
+    padding: 30px 30px 30px 150px;
+    align-items: center;
+}
+
+.banner-content{
+    width: 550px;
+    height: auto;
+}
+
+.banner-pic{
+    width: 450px;
+    height: auto;
 }
