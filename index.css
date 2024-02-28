@@ -21,9 +21,12 @@ body{
 }
 /* header styles */
 header{
-    width: 100%;
-    height: auto;
+    /* width: 100%;
+    height: auto; */
     background-color: #FFF8F3;
+    background-image: url('images/header_bg13.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 /* Navbar styles */
@@ -51,16 +54,70 @@ nav a{
 
 .banner{
     display: flex;
-    padding: 30px 30px 30px 150px;
+    justify-content: space-between;
+    padding: 30px 30px 0px 150px;
     align-items: center;
 }
 
 .banner-content{
-    width: 550px;
+    max-width: 500px;
     height: auto;
+
+}
+
+.banner-greetings{
+    font-size: 24px;
+    margin-bottom: 0;
+    color: #474747;
+}
+
+.banner-title{
+    font-size: 45px;
+    margin-top: 0;
 }
 
 .banner-pic{
-    width: 450px;
+    width: 500px;
     height: auto;
+}
+
+/* main section styles */
+
+/* .main{
+    width: 1140px;
+    height: auto;
+} */
+
+.about{
+    width: 800px;
+    height: 288px;
+    margin: 80px auto;
+    background-color: #FFF8F3;
+    padding: 80px;
+    border-radius: 10px;
+
+}
+
+.about-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.about-desc{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about > ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about > ul li {
+    list-style: none;
+    text-align: center;
+}
+
+.about > ul > li > h5{
+    margin-top: 0;
+    font-size: 16px;
 }
